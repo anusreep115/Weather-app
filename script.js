@@ -20,7 +20,7 @@ async function checkWeater(city) {
         var data=await response.json();
     console.log(data);
     document.querySelector(".city").innerHTML=data.name;
-    document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"<sup>o</sup>c";
+    document.querySelector(".temp").innerHTML=Math.floor(data.main.temp)+"<sup>o</sup>c";
     document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
     document.querySelector(".wind").innerHTML=data.wind.speed+" km/h";
     

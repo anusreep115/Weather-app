@@ -2,15 +2,17 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Lora", serif;
 }
 body{
-    background-color: #424141;
+    background: linear-gradient(135deg, #d642fb, #fafafa);
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #e8efed, #3f319e);
-    color: #fff;
+    background: linear-gradient(135deg, #f6f2f7, #8f4aa5);
+    color: rgb(26, 26, 63);
+    /* color: #fff; */
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -26,7 +28,8 @@ body{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    color: #555;
+     color: rgb(26, 26, 63);
+    /* color: #555; */
     padding: 10px 25px;
     height: 35px;
     border-radius: 30px;
@@ -52,6 +55,7 @@ body{
     margin-top: 30px;
 }
 .weather h1{
+     color: rgb(2, 2, 64);
     font-size: 80px;
     font-weight: 500;
 }
